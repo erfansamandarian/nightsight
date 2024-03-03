@@ -1,9 +1,9 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-View extensions to help with drawing the camera streams correctly on all device orientations.
-*/
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ View extensions to help with drawing the camera streams correctly on all device orientations.
+ */
 
 import SwiftUI
 
@@ -28,7 +28,7 @@ extension View {
     var rotationAngle: Double {
         var angle = 0.0
         switch viewOrientation {
-        
+            
         case .up:
             angle = -Double.pi / 2
         case .down:
@@ -42,10 +42,10 @@ extension View {
         }
         return angle
     }
-
+    
     var viewOrientation: UIImage.Orientation {
         var result = UIImage.Orientation.up
-       
+        
         guard let currentWindowScene = UIApplication.shared.connectedScenes.first(
             where: { $0.activationState == .foregroundActive }) as? UIWindowScene
         else { return result }
@@ -63,7 +63,7 @@ extension View {
         default:
             result = .up
         }
-            
+        
         return result
     }
 }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE921D25270D7B02000E95C6"
-               BuildableName = "LiDARDepth.app"
-               BlueprintName = "LiDARDepth"
-               ReferencedContainer = "container:LiDARDepth.xcodeproj">
+               BuildableName = "nightsight.app"
+               BlueprintName = "nightsight"
+               ReferencedContainer = "container:nightsight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE921D25270D7B02000E95C6"
-            BuildableName = "LiDARDepth.app"
-            BlueprintName = "LiDARDepth"
-            ReferencedContainer = "container:LiDARDepth.xcodeproj">
+            BuildableName = "nightsight.app"
+            BlueprintName = "nightsight"
+            ReferencedContainer = "container:nightsight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE921D25270D7B02000E95C6"
-            BuildableName = "LiDARDepth.app"
-            BlueprintName = "LiDARDepth"
-            ReferencedContainer = "container:LiDARDepth.xcodeproj">
+            BuildableName = "nightsight.app"
+            BlueprintName = "nightsight"
+            ReferencedContainer = "container:nightsight.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

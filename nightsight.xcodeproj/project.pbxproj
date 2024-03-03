@@ -39,9 +39,9 @@
 		AE5D416E2756041300B2513E /* MetalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalEnvironment.swift; sourceTree = "<group>"; };
 		AE7889AD271DB86E00B0383F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AE7889B0271F02D800B0383F /* MetalTextureViewDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureViewDepth.swift; sourceTree = "<group>"; };
-		AE921D26270D7B02000E95C6 /* LiDARDepth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiDARDepth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE921D26270D7B02000E95C6 /* nightsight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nightsight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE921D29270D7B02000E95C6 /* LiDARDepthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDARDepthApp.swift; sourceTree = "<group>"; };
-		AE921D2B270D7B02000E95C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE921D2B270D7B02000E95C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 2; };
 		AE921D2D270D7B04000E95C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE921D30270D7B04000E95C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE921D37270D7B41000E95C6 /* MetalTextureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalTextureView.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 		AE921D27270D7B02000E95C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE921D26270D7B02000E95C6 /* LiDARDepth.app */,
+				AE921D26270D7B02000E95C6 /* nightsight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,9 +185,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE921D25270D7B02000E95C6 /* LiDARDepth */ = {
+		AE921D25270D7B02000E95C6 /* nightsight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "LiDARDepth" */;
+			buildConfigurationList = AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "nightsight" */;
 			buildPhases = (
 				AE921D22270D7B02000E95C6 /* Sources */,
 				AE921D23270D7B02000E95C6 /* Frameworks */,
@@ -197,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = LiDARDepth;
+			name = nightsight;
 			productName = DepthAPISample;
-			productReference = AE921D26270D7B02000E95C6 /* LiDARDepth.app */;
+			productReference = AE921D26270D7B02000E95C6 /* nightsight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "LiDARDepth" */;
+			buildConfigurationList = AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "nightsight" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,7 +232,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE921D25270D7B02000E95C6 /* LiDARDepth */,
+				AE921D25270D7B02000E95C6 /* nightsight */,
 			);
 		};
 /* End PBXProject section */
@@ -501,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "LiDARDepth" */ = {
+		AE921D21270D7B02000E95C6 /* Build configuration list for PBXProject "nightsight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE921D32270D7B04000E95C6 /* Debug */,
@@ -510,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "LiDARDepth" */ = {
+		AE921D34270D7B04000E95C6 /* Build configuration list for PBXNativeTarget "nightsight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE921D35270D7B04000E95C6 /* Debug */,
