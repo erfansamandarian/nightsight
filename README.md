@@ -1,6 +1,6 @@
 # nightsight
 
-<img title="eyes" alt="eyes" height="256" width="256" src="nightsight/Assets.xcassets/AppIcon.appiconset/1024.png">
+<img title="eyes" alt="eyes" height="256" width="256" src="LiDARDepth/Assets.xcassets/AppIcon.appiconset/1024.png">
 
 ## escape the matrix, become nocturnal
 
