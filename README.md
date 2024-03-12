@@ -7,5 +7,5 @@
 ios app that uses the lidar sensor in iphones to provide <i>some</i> visibility in dark environments
 
 <p>
-  <img title="opeartion" alt="operation" width="32%" src="screenshots/operation.jpeg">
+  <img title="operation" alt="operation" width="32%" src="screenshots/operation.jpeg">
 </p>
